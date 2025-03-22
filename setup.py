@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="coco-to-roboflow",
-    version="0.1.1",
+    version="0.1.2",
     packages=find_packages(),
     entry_points={
         'console_scripts': [
@@ -13,7 +13,7 @@ setup(
     python_requires=">=3.6",
     author="Tait Larson",
     author_email="taitlarson@gmail.com",
-    description="Convert COCO format datasets to Roboflow format",
+    description="Convert COCO format datasets to a COCO format that can used when training with Roboflow",
     keywords="coco, roboflow, dataset, conversion",
     url="",
     classifiers=[
