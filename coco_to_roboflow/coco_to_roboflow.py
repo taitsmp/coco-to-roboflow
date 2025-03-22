@@ -51,7 +51,7 @@ def process_split(
         shutil.copy2(source_path, dest_path)
         
         # Update file path in the JSON
-        img_data['file_name'] = source_path.name
+        img_data['file_name'] = f"images/{source_path.name}"
         
         processed_images += 1
         if verbose and processed_images % 10 == 0:
